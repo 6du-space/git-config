@@ -5,10 +5,16 @@
 	logallrefupdates = true
 	ignorecase = true
 [remote "origin"]
+	url = git@bitbucket.org:6du-space/sh.git 
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "origin"]
 	url = git@gitee.com:www-6du-space/sh.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [remote "origin"]
 	url = git@github.com:6du-space/sh.git 
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "origin"]
+	url = git@gitlab.com:6du/sh.git 
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
 	remote = origin
