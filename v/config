@@ -8,9 +8,6 @@
 	url = git@gitee.com:dns6/v-.git 
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [remote "origin"]
-	url = git@gitshell.com:dns/v.git 
-	fetch = +refs/heads/*:refs/remotes/origin/*
-[remote "origin"]
 	url = git@gitlab.com:dns6/v.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [remote "origin"]
